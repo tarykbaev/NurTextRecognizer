@@ -11,10 +11,6 @@ object PassportMrzHelper {
     private const val TD1_LENGTH = 30
 
     fun parseMrzFromRawText(rawText: Text): List<String> {
-        rawText.textBlocks.forEach {
-            println(it.text)
-        }
-        println("------------------>>")
         return rawText.textBlocks
             .flatMap { it.text.split("\n") }
             .filter {
@@ -45,10 +41,6 @@ object PassportMrzHelper {
     }
 
     fun getValidMrzData(lines: List<String>): RecognizedMrz? {
-        lines.forEach {
-            println(it)
-        }
-        println("------------------")
         val td3Lines = isTD3(lines)
         val td2Lines = isTD2(lines)
         return when {

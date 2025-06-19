@@ -62,10 +62,9 @@ class MainActivity : AppCompatActivity() {
                     20,
                     20000,
                     "Убедитесь, что паспорт полностью в кадре",
-                    true,
-                    overlayType = OverlayType.FOREIGN_PASSPORT_OVERLAY,
+                    false,
+                    overlayType = OverlayType.PASSPORT_OVERLAY,
                     hasCustomPhotoConfirmation = false,
-                    passportMask = PassportMask.LIGHT_GREEN_PASSPORT_MASK,
                     isSimplifiedRecognition = true
                 )
             )
