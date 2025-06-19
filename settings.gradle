@@ -16,4 +16,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "TextRecognizer"
 include ':app'
-include ':text_recognizer'
+include ':nur_text_recognizer'

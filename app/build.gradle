@@ -38,8 +38,7 @@ android {
 
 dependencies {
 
-    implementation project(':text_recognizer')
-
+    implementation project(':nur_text_recognizer')
     implementation 'com.github.ealmaz:DesignChili2:1.0.268'
 
     implementation 'androidx.core:core-ktx:1.7.0'

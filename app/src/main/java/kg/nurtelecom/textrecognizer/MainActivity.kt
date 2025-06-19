@@ -6,13 +6,13 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.appcompat.app.AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM
-import kg.nurtelecom.text_recognizer.RecognizedMrz
-import kg.nurtelecom.text_recognizer.photo_capture.FileUploader
-import kg.nurtelecom.text_recognizer.photo_capture.OverlayType
-import kg.nurtelecom.text_recognizer.photo_capture.PassportMask
-import kg.nurtelecom.text_recognizer.photo_capture.PhotoRecognizerActivity
-import kg.nurtelecom.text_recognizer.photo_capture.RecognizePhotoContract
-import kg.nurtelecom.text_recognizer.photo_capture.TextRecognizerConfig
+import kg.nurtelecom.nur_text_recognizer.RecognizedMrz
+import kg.nurtelecom.nur_text_recognizer.photo_capture.FileUploader
+import kg.nurtelecom.nur_text_recognizer.photo_capture.OverlayType
+import kg.nurtelecom.nur_text_recognizer.photo_capture.PassportMask
+import kg.nurtelecom.nur_text_recognizer.photo_capture.PhotoRecognizerActivity
+import kg.nurtelecom.nur_text_recognizer.photo_capture.RecognizePhotoContract
+import kg.nurtelecom.nur_text_recognizer.photo_capture.TextRecognizerConfig
 import kg.nurtelecom.textrecognizer.databinding.ActivityMainBinding
 import java.io.File
 
